@@ -1,0 +1,10 @@
+{
+  "name": "Grand Tjokro Yogyakarta - Breakfast QR Management System",
+  "description": "Enterprise Hotel Breakfast QR entitlement and redemption management system for Grand Tjokro Yogyakarta.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

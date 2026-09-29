@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="220" stroke="url(#gold)" stroke-width="6" fill="none" opacity="0.3"/>
+  <circle cx="256" cy="256" r="200" stroke="url(#gold)" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Hotel Cloche / Breakfast Symbol -->
+  <path d="M256 120 A 136 136 0 0 1 392 256 L120 256 A 136 136 0 0 1 256 120 Z" fill="url(#gold)"/>
+  <circle cx="256" cy="110" r="16" fill="url(#gold)"/>
+  <!-- Tray Base -->
+  <rect x="100" y="264" width="312" height="20" rx="10" fill="url(#gold)"/>
+  
+  <!-- QR Grid Motif in bottom -->
+  <rect x="160" y="310" width="36" height="36" rx="6" fill="url(#gold)"/>
+  <rect x="170" y="320" width="16" height="16" fill="#0f172a"/>
+  
+  <rect x="316" y="310" width="36" height="36" rx="6" fill="url(#gold)"/>
+  <rect x="326" y="320" width="16" height="16" fill="#0f172a"/>
+  
+  <rect x="160" y="366" width="36" height="36" rx="6" fill="url(#gold)"/>
+  <rect x="170" y="376" width="16" height="16" fill="#0f172a"/>
+  
+  <rect x="238" y="310" width="36" height="16" rx="4" fill="url(#gold)"/>
+  <rect x="238" y="346" width="36" height="36" rx="4" fill="url(#gold)"/>
+  <rect x="316" y="366" width="36" height="36" rx="4" fill="url(#gold)"/>
+  
+  <!-- Typography Subtitle -->
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="4">GRAND TJOKRO</text>
+  <text x="256" y="475" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#fbbf24" text-anchor="middle" letter-spacing="3">BREAKFAST PASS</text>
+</svg>
